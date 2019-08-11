@@ -29695,6 +29695,30 @@ module.exports = function (list, options) {
 
 /***/ }),
 
+/***/ "./src/components/HelloWorld/index.js":
+/*!********************************************!*\
+  !*** ./src/components/HelloWorld/index.js ***!
+  \********************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _style_index_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../style/index.css */ "./src/style/index.css");
+/* harmony import */ var _style_index_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_style_index_css__WEBPACK_IMPORTED_MODULE_1__);
+
+
+
+var HelloWorld = function HelloWorld() {
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, "Hello World!");
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (HelloWorld);
+
+/***/ }),
+
 /***/ "./src/index.js":
 /*!**********************!*\
   !*** ./src/index.js ***!
@@ -29708,17 +29732,11 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-dom */ "./node_modules/react-dom/index.js");
 /* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_dom__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _style_index_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./style/index.css */ "./src/style/index.css");
-/* harmony import */ var _style_index_css__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_style_index_css__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _components_HelloWorld__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./components/HelloWorld */ "./src/components/HelloWorld/index.js");
 
 
 
-
-var HelloWorld = function HelloWorld() {
-  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, "Hello World!");
-};
-
-Object(react_dom__WEBPACK_IMPORTED_MODULE_1__["render"])(react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(HelloWorld, null), document.getElementById("react-container"));
+Object(react_dom__WEBPACK_IMPORTED_MODULE_1__["render"])(react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_HelloWorld__WEBPACK_IMPORTED_MODULE_2__["default"], null), document.getElementById("react-container"));
 
 /***/ }),
 
